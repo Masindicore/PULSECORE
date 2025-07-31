@@ -1,0 +1,95 @@
+import random
+
+# Personalized Greeting App
+
+def get_nonempty_input(prompt):
+    while True:
+        value = input(prompt).strip()
+        if value:
+            return value
+        print("Input cannot be empty. Please try again.")
+
+# Get user# input with validation
+name = get_nonempty_input("What's your name? ")
+color = get_nonempty_input("What's your favorite color? ")
+
+# Print a personalized message
+print(f"\nHello, {name}! Your favorite color, {color}, is awesome! 🎨")
+
+# Simple Quiz Game
+def run_quiz():
+    questions = [
+        {
+            "question": "What is the capital of France?",
+            "options": ["a) London", "b) Berlin", "c) Paris", "d) Madrid"],
+            "answer": "c"
+        },
+        {
+            "question": "Which language is this quiz written in?",
+            "options": ["a) Python", "b) Java", "c) C++", "d) HTML"],
+            "answer": "a"
+        },
+        {
+            "question": "What is 2 + 2?",
+            "options": ["a) 3", "b) 4", "c) 5", "d) 22"],
+            "answer": "b"
+        }
+    ]
+
+    score = 0
+
+    print("Welcome to the Simple Quiz Game!")
+    print("Type 'exit' anytime to quit.\n")
+
+    for q in questions:
+        print(q["question"])
+        for option in q["options"]:
+            print(option)
+        while True:
+            user_answer = input("Your answer (a/b/c/d): ").strip().lower()
+            if user_answer == 'exit':
+                print("Quiz exited.")
+                return
+            if user_answer in ['a', 'b', 'c', 'd']:
+                break
+            else:
+                print("Please enter a valid option (a, b, c, or d), or type 'exit' to quit.")
+
+        if user_answer == q["answer"]:
+            print("✅ Correct!")
+            score += 1
+        else:
+            correct_option = [o for o in q["options"] if o.startswith(q["answer"] + ")")][0]
+            print(f"❌ Wrong! The correct answer is {correct_option}")
+
+    print(f"\nYour final score: {score}/{len(questions)}")
+
+while True:
+    run_quiz()
+    again = input("\nDo you want to play again? (yes/no): ").strip().lower()
+    if again != "yes":
+        print("Thanks for playing! 👋")
+        break
+
+
+jokes = [
+    "Why did the programmer quit his job? Because he didn't get arrays.",
+    "Why do Python programmers wear glasses? Because they can't C.",
+    "How many programmers does it take to change a light bulb? None, it's a hardware problem!",
+    "Why did the computer go to the doctor? It had a virus!",
+    "Debugging: Removing the needles from the haystack."
+]
+
+print("\nWelcome to the Random Joke Generator! 🤣")
+
+while True:
+    user_input = input("Press Enter to hear a joke (or type 'q' and press Enter to quit)...").strip().lower()
+    if user_input == 'q':
+        print("Thanks for using the Random Joke Generator! 😂👋")
+        break
+    print("\nHere's a joke for you:")
+    print(random.choice(jokes))
+    replay = input("\nWould you like to hear another? (yes/no): ").strip().lower()
+    if replay not in ('yes', 'y'):
+        print("Thanks for using the Random Joke Generator! 😂👋")
+        break
