@@ -1,0 +1,106 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ronewa shares real-life weight loss strategies and simple meal plans from personal experience. No certifications — just results, honesty, and practical guidance for women starting their fitness journey.">
+    <meta name="keywords" content="weight loss journey, homemade meal plans, gym and nutrition, women's fitness, fat loss without dieting, Ronewa, real body transformation">
+    <meta name="author" content="Ronewa">
+    <meta name="robots" content="index, follow">
+    <title>Ronewa | Real Weight Loss Help From My Kitchen & Gym</title>
+</head>
+<body>
+    <header role="banner">
+        <h1>Ronewa: My Journey, Your Guide</h1>
+        <p>Simple. Honest. Effective — Weight Loss Tips from Real Life</p>
+        
+        <nav role="navigation" aria-label="Main Navigation">
+            <ul>
+                <li><a href="#home" aria-current="page">Home</a></li>
+                <li><a href="#about">My Story</a></li>
+                <li><a href="#programs">How I Help</a></li>
+                <li><a href="#mealplans">Meal Plans</a></li>
+                <li><a href="#results">Real Results</a></li>
+                <li><a href="#contact">Talk to Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main role="main">
+        <section id="home" aria-labelledby="home-heading">
+            <h2 id="home-heading">Lose Weight the Way I Did — No Gimmicks</h2>
+            <p>I didn’t go to school for nutrition. I never got a certificate. But I lost 35 pounds, gained real strength, and kept it off — by going to the gym consistently and cooking my own meals.</p>
+            <p>Now, I help other women do the same with <strong>simple routines, affordable grocery lists, and no-pressure coaching</strong> — because real change happens in real life.</p>
+        </section>
+
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">This Isn’t Theory — It’s What Worked for Me</h2>
+            <p>Hi, I’m Ronewa. Like so many women, I tried every fad diet: juice cleanses, keto without knowledge, skipping meals… and nothing stuck.</p>
+            <p>Then I made two changes:</p>
+            <ol>
+                <li>I started going to the gym 4 times a week — no extremes, just consistency.</li>
+                <li>I began cooking my own meals using whole ingredients, tracking portions, and staying balanced.</li>
+            </ol>
+            <p>In 6 months, I lost weight, gained confidence, and felt healthier than ever. I didn’t need a lab or a license — I just needed to show up for myself.</p>
+            <p>Now, I share what I learned so you don’t have to waste time, money, or energy on what doesn’t work.</p>
+        </section>
+
+        <section id="programs" aria-labelledby="programs-heading">
+            <h2 id="programs-heading">How I Can Help You</h2>
+            <p>I offer practical, no-jargon support based on what actually works in real life:</p>
+            <ul>
+                <li><strong>Starter Meal Guide:</strong> A 7-day plan with affordable ingredients and easy recipes.</li>
+                <li><strong>Gym & Life Balance:</strong> Tips to stay consistent without burning out.</li>
+                <li><strong>Accountability Check-Ins:</strong> Weekly messages to keep you on track.</li>
+                <li><strong>Prep Like Me:</strong> Learn my method for batch-cooking and saving time.</li>
+            </ul>
+            <p>This isn’t medical advice — it’s <strong>real talk from someone who’s been there</strong>.</p>
+        </section>
+
+        <section id="mealplans" aria-labelledby="mealplans-heading">
+            <h2 id="mealplans-heading">Meal Plans That Fit Real Kitchens</h2>
+            <p>My plans are built for:</p>
+            <ul>
+                <li>Busy schedules</li>
+                <li>Small budgets</li>
+                <li>No fancy ingredients</li>
+                <li>Portion control without counting every calorie</li>
+            </ul>
+            <p>Each plan comes with a shopping list, simple prep steps, and substitutions if you don’t like something.</p>
+            <p><a href="#download-freebie">Download my free 3-day meal plan</a> and try it this week!</p>
+        </section>
+
+        <section id="results" aria-labelledby="results-heading">
+            <h2 id="results-heading">Women Who’ve Made Progress</h2>
+            <blockquote aria-labelledby="result1-name">
+                <p>"Ronewa’s plan was the first one I could actually follow. I lost 12 pounds in 2 months and didn’t feel deprived."</p>
+                <footer>
+                    <cite id="result1-name">— Maya T., Teacher & Mom</cite>
+                </footer>
+            </blockquote>
+            <blockquote aria-labelledby="result2-name">
+                <p>"I’ve never cooked before, but her videos and lists made it easy. I’m stronger and finally seeing abs!"</p>
+                <footer>
+                    <cite id="result2-name">— Jess N., Student</cite>
+                </footer>
+            </blockquote>
+        </section>
+    </main>
+
+    <aside id="contact" aria-labelledby="contact-heading" role="complementary">
+        <h2 id="contact-heading">Let’s Get Started — Just Like I Did</h2>
+        <p>I’m here to help you take the first step — no perfection needed. Just honesty, effort, and support.</p>
+        <p>Email me: <a href="mailto:hey@ronewa.com">hey@ronewa.com</a></p>
+        <p>Follow my journey: <a href="https://www.instagram.com/ronycanonclick/" target="_blank">@ronewa.realresults</a></p>
+    </aside>
+
+    <footer role="contentinfo">
+        <p>&copy; 2025 Ronewa. All rights reserved.</p>
+        <p><strong>Disclaimer:</strong> I am not a certified nutritionist or doctor. My advice comes from personal experience and research. Always consult a healthcare provider before starting a new fitness or nutrition plan.</p>
+        <p>
+            <a href="#privacy">Privacy Policy</a>
+        </p>
+    </footer>
+</body>
+</html>
